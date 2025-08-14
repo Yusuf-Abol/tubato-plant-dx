@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data folders (avoid committing large datasets)
+data/processed/
+data/external/
+data/raw/
+
+# Experiments logs and outputs
+experiments/**/logs/
+experiments/**/checkpoints/
+experiments/**/results/
+
+# Deployment artifacts
+deployment/docker/*.tar
+deployment/serving/*.pkl
+deployment/serving/*.h5
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pytest cache
+.pytest_cache/
